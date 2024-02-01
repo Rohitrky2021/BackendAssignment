@@ -50,6 +50,49 @@ npx sequelize-cli db:create
 npm run db:migrate:up
 ``` 
 
+### API Routes Urls
+
+## 1.CreaterUser
+
+```bash  
+localhost:8080/v1/user/
+ ``` 
+
+## 2.Login
+
+```bash  
+localhost:8080/v1/auth/
+ ``` 
+ 
+## 3. Create And Get Task
+
+```bash  
+localhost:8080/v1/task/get_all_tasks/
+
+localhost:8080/v1/sub_task/get_all_sub_tasks/:1
+
+localhost:8080/v1/sub_task/create/1
+
+localhost:8080/v1/task/create
+ ``` 
+
+## 4.Crons Twilio CAlling 
+
+```bash  
+localhost:8080/v1/call/
+ ``` 
+
+## 5. Updates And Delete 
+
+```bash  
+localhost:8080/v1/task/upd/1
+
+localhost:8080/v1/sub_task/upd/6
+
+localhost:8080/v1/sub_task/del/8
+ ``` 
+
+
 ## For TWilio Setup 
 
 ```bash 
